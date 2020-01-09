@@ -89,33 +89,5 @@ end
       end
     end
   end
-  #binding.pry
-
-    # what does this method want me to do?
-    # play the song from list_songs that matches the user's input
-    # how do I match users input to list_songs
-    # how do I match the number provided by the user to the number of the song in the list
-    # array can store infinite amount of songs so users input isn't finite it also can be infinite which means we need to use a range
-    # how do I use a range and compare it to something else to return a comparison value
-  #   def play_song
-  #   puts "Which song number would you like to play?"
-  #   input = gets.strip.to_i
-  #   users_input_matches_with_song_position = (1..Song.all.length).include?(input)
-  # #   # if the number within Song.all matches users_input then puts
-  #   if users_input_matches_with_song_position
-  # #     # song = list_of_the_song[input]
-  #   song = Song.all.sort {|a,b| a.name <=> b.name}.uniq[input - 1]
-  #     # song.name
-  #     # song.artist.name
-  #     puts "Playing #{song.name} by #{song.artist.name}"
-  #     # binding.pry
-  #
-  #     # puts "#{song.artist.name}"
-  #
-  # end
-  #
-  # end
-
-
-
+  
 end
